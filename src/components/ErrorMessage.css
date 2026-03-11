@@ -1,0 +1,49 @@
+.error-container {
+    background: #ffebee;
+    border: 1px solid #f44336;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.error-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.error-title {
+    color: #c62828;
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.error-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn-retry {
+    background-color: #2196F3;
+    color: white;
+}
+
+.btn-retry:hover {
+    background-color: #1976D2;
+}
+
+.btn-close-error {
+    background-color: #9e9e9e;
+    color: white;
+}
+
+.btn-close-error:hover {
+    background-color: #757575;
+}
