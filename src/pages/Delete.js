@@ -43,6 +43,7 @@ const Delete = () => {
         setIsDeleting(true);
         try {
             await deleteIncident(parseInt(id));
+            setIsDeleting(false);
             alert("Инцидент успешно удален!");
             navigate('/delete');
         } catch (err) {
