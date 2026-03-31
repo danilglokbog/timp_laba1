@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useCallback } from 'react';
 import axios from 'axios';
-
-const API_URL = 'http://localhost:5000/incidents';
+const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_URL = `${BASE_URL}/incidents`;
 
 const IncidentsContext = createContext();
 
